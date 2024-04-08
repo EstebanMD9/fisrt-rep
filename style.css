@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #b2c7dd;
+}
+header{
+    background-color:#DB9292;
+    position: sticky;
+    top: 0;
+}
+.Nombre{
+    width: 140px;
+    height: 20px;
+    left: 200px;
+    top: 0px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 0px;
+    color: #000000; 
+}
+.nav{
+    position: relative;
+    top: 10px;
+    left: 500px;
+    width: 70px;
+    height: 70px;
+}
+.e_nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.nav_b{
+    background-color: #ff9e9eea;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 12px;
+    align-items: center;
+}
+.intr{
+    background-color:#6493c2;
+    padding: 10px 20px 150px;
+}
+.quienes{
+    display: flex;
+    justify-content: center;
+}
+.quiart{
+    display: flex;
+    justify-content: center;
+}
+
